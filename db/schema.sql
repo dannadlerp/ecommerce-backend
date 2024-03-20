@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS ecommerce_db;
 
 CREATE DATABASE ecommerce_db;
 
-CREATE TABLE Category (
+/* CREATE TABLE Category (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     category_name VARCHAR(255) NOT NULL
 );
@@ -24,4 +24,4 @@ CREATE TABLE ProductTag (
     tag_id INT,
     FOREIGN KEY (product_id) REFERENCES Product(id),
     FOREIGN KEY (tag_id) REFERENCES Tag(id)
-);
+); */
