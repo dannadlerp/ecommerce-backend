@@ -2,7 +2,7 @@ const express = require("express");
 const routes = require("./routes");
 const sequelize = require("./config/connection");
 const path = require("path");
-const { sync } = require("./models/Product");
+const { sync } = require("./models");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
